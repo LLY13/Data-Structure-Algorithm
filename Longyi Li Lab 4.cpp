@@ -98,7 +98,7 @@ Node* FindSmallestElement(Node* myNode) {
 	}
 	else
 	{
-		if (myNode->left != NULL)
+		if (myNode->left != NULL) 
 		{
 			FindSmallestElement(myNode->left);
 		}
